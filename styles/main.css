@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: #fff url("../images/bg.jpg") fixed center;
+  background-size: cover;
+}
+div {
+  background-color: rgba(250, 250, 250, 0.8);
+  font-family: 'Secular One', sans-serif;
+  width: 50%;
+  max-width: 1000px;
+  border: 3rem white solid;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.indent {
+  border-left: 10rem solid gray;
+}
+.header {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 0.3rem 0rem black;
+}
+.footer {
+  font-family: 'Secular One', sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0.2rem 0rem black;
+}
+.title {
+  font-weight: bold;
+}
+.date{
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: blue;
+  text-transform: uppercase;
+  margin: 1.5rem 0rem;
+}
+blockquote {
+  margin-left: 0rem;
+  border-left: solid 0.2rem gray;
+  padding: 0.5rem;
+}
